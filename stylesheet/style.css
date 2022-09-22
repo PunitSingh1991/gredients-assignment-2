@@ -1,0 +1,145 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: sans-serif;
+    background-color: #1d2029;
+    color: #fff;
+}
+*
+::before,
+::after {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1400px;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    padding: 40px 0;
+    background-color: #20232f;
+    padding-bottom: 80px;
+}
+.header h1 {
+    font-size: 48px;
+}
+.btn {
+    width: 50px;
+    height: 24px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #30b289, #30b192);
+    margin-left: 16px;
+    padding-left: 4px;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #262c45;
+}
+.card-container {
+    padding: 60px 0;
+}
+.card {
+    background-color: #252c43;
+    padding: 32px;
+    text-align: center;
+    width: 22%;
+    margin: 1.5%;
+    position: relative;
+    border-radius: 6px;
+}
+.border-top {
+    width: 100%;
+    height: 5px;
+    background-color: #18bff5;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+
+}
+.card img {
+    margin-right: 12px;
+    color: #7f8cb2;
+}
+.card h2 {
+    font-size: 54px;
+    font-weight: 700;
+    color: white;
+    line-height: 1.0;
+}
+.card-body {
+    padding: 32px 0;
+}
+.card-body p {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    line-height: 1;
+}
+.card-footer img {
+     margin-right: 4px;
+     width: 12px;
+     background-color: #30b891;
+}
+.insta {
+    width: 32px;
+    height: 32px;
+}
+.card-footer span {
+    color: #3bd192;
+    font-size: 12px;
+    font-weight: 700;
+}
+.card .three {
+    background: linear-gradient(to right, yellow, purple);
+}
+.card .four {
+    background-color: red;
+}
+.card .span
+{
+    color: red;
+}
+
+.footer span {
+    color: #3bd192;
+    font-size: 18px;
+    font-weight: 700;
+}
+.overview-card {
+    margin-top: 32px 0;
+}
+.overview h2 {
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.card-header h4 {
+    font-size: 18px;
+    color:#7f8cb2
+}
+.overview-card .img {
+    width: 18px
+}
+.h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.arrow {
+    background-color: #3bd192;
+    width: 10px;
+}
+
+
